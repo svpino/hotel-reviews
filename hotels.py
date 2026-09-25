@@ -1,4 +1,4 @@
-"""Collect Rome hotel reviews, classify Wi-Fi and noise, and print the results."""
+"""Collect hotel reviews, classify Wi-Fi and noise, and print the results."""
 
 import argparse
 import json
@@ -468,7 +468,8 @@ def main():
             print(f"Reusing {len(reviews)} saved reviews; skipping Apify.", flush=True)
         else:
             print(
-                f"Collecting up to {count} text reviews from Rome hotels...",
+                f"Collecting up to {count} text reviews "
+                "from the configured hotels...",
                 flush=True,
             )
             reviews, run = collect(count)
