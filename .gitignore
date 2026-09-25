@@ -1,0 +1,26 @@
+# Credentials and local configuration
+.env
+.env.*
+*.env
+*.pem
+*.key
+
+# Collected reviews and generated run results
+data/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local system/editor files
+.DS_Store
+.idea/
+.vscode/
+*.log
